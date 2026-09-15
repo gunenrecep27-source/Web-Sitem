@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="tr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Günen Teknik | Profesyonel Beyaz Eşya Servisi - 0545 856 60 62</title>
+  <meta name="description" content="Çamaşır makinesi, buzdolabı, bulaşık makinesi, kurutma makinesi ve fırın arızalarında aynı gün yerinde servis. 1 yıl garanti, uygun fiyat ve %100 orijinal yedek parça." />
+  
+  <!-- SEO & Open Graph Meta Tags -->
+  <meta property="og:title" content="Günen Teknik - Profesyonel Beyaz Eşya Servisi" />
+  <meta property="og:description" content="Aynı gün yerinde beyaz eşya tamiri ve bakımı. 1 yıl garanti, uzman teknisyenler." />
+  <meta property="og:type" content="website" />
+  
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0f6ff',
+              100: '#e0edff',
+              200: '#bae0fd',
+              500: '#2563eb',
+              600: '#1d4ed8',
+              700: '#1e40af',
+              800: '#1e3a8a',
+              900: '#0f172a',
+              dark: '#0b1329',
+            },
+            accent: {
+              amber: '#f59e0b',
+              emerald: '#10b981',
+              green: '#22c55e',
+            }
+          },
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Custom Keyframe Animations */
+    @keyframes pulse-subtle {
+      0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.6); }
+      50% { transform: scale(1.05); box-shadow: 0 0 0 14px rgba(34, 197, 94, 0); }
+    }
+    .animate-whatsapp-pulse {
+      animation: pulse-subtle 2.2s infinite ease-in-out;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    .animate-float {
+      animation: float 4s ease-in-out infinite;
+    }
+
+    .glass-nav {
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+
+    .glass-card {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(226, 232, 240, 0.8);
+    }
+  </style>
+</head>
+
+<body class="font-sans bg-slate-50 text-slate-800 antialiased selection:bg-blue-600 selection:text-white">
+
+  <!-- ================= 1. HEADER / NAVBAR ================= -->
+  <header id="header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 glass-nav border-b border-slate-800/60 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Logo -->
+        <a href="#hero" class="flex items-center space-x-3 group">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-blue-700 to-blue-500 flex items-center justify-center text-white shadow-md shadow-blue-500/20 group-hover:scale-105 transition-transform">
+            <i class="fa-solid fa-wrench text-xl"></i>
+          </div>
+          <div class="flex flex-col">
+            <span class="text-xl sm:text-2xl font-extrabold text-white tracking-tight">
+              GÜNEN <span class="text-blue-400">TEKNİK</span>
+            </span>
+            <span class="text-[10px] tracking-widest text-slate-400 uppercase font-semibold">Beyaz Eşya Servisi</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex items-center space-x-8 text-sm font-semibold text-slate-300">
+          <a href="#hero" class="hover:text-blue-400 transition-colors">Anasayfa</a>
+          <a href="#hizmetler" class="hover:text-blue-400 transition-colors">Hizmetlerimiz</a>
+          <a href="#neden-biz" class="hover:text-blue-400 transition-colors">Neden Biz?</a>
+          <a href="#ariza-form" class="hover:text-blue-400 transition-colors">Arıza Bildir</a>
+          <a href="#yorumlar" class="hover:text-blue-400 transition-colors">Yorumlar</a>
+          <a href="#iletisim" class="hover:text-blue-400 transition-colors">İletişim</a>
+        </nav>
+
+        <!-- CTA Buttons (Desktop) -->
+        <div class="hidden lg:flex items-center space-x-3">
+          <a href="https://wa.me/905458566062" target="_blank" rel="noopener noreferrer" 
+             class="p-2.5 rounded-lg bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-600 hover:text-white transition-all duration-200"
+             title="WhatsApp ile İletişime Geç">
+            <i class="fa-brands fa-whatsapp text-xl"></i>
+          </a>
+          <a href="tel:+905458566062" 
+             class="flex items-center space-x-2 bg-blue-600 hover:bg-blue-500 text-white font-bold px-4 py-2.5 rounded-lg shadow-md shadow-blue-600/30 transition-all duration-200 transform hover:-translate-y-0.5">
+            <i class="fa-solid fa-phone"></i>
+            <span>0545 856 60 62</span>
+          </a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-btn" onclick="toggleMobileMenu()" type="button" aria-label="Menüyü Aç/Kapat" 
+                class="md:hidden p-2 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 focus:outline-none">
+          <i id="menu-icon" class="fa-solid fa-bars text-2xl"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-slate-900 border-b border-slate-800 px-4 pt-3 pb-6 space-y-3">
+      <a href="#hero" onclick="toggleMobileMenu()" class="block px-3 py-2 rounded-md font-medium text-slate-200 hover:bg-slate-800 hover:text-blue-400">Anasayfa</a>
+      <a href="#hizmetler" onclick="toggleMobileMenu()" class="block px-3 py-2 rounded-md font-medium text-slate-200 hover:bg-slate-800 hover:text-blue-400">Hizmetlerimiz</a>
+      <a href="#neden-biz" onclick="toggleMobileMenu()" class="block px-3 py-2 rounded-md font-medium text-slate-200 hover:bg-slate-800 hover:text-blue-400">Neden Biz?</a>
+      <a href="#ariza-form" onclick="toggleMobileMenu()" class="block px-3 py-2 rounded-md font-medium text-slate-200 hover:bg-slate-800 hover:text-blue-400">Arıza Bildir</a>
+      <a href="#yorumlar" onclick="toggleMobileMenu()" class="block px-3 py-2 rounded-md font-medium text-slate-200 hover:bg-slate-800 hover:text-blue-400">Müşteri Yorumları</a>
+      <a href="#iletisim" onclick="toggleMobileMenu()" class="block px-3 py-2 rounded-md font-medium text-slate-200 hover:bg-slate-800 hover:text-blue-400">İletişim</a>
+      
+      <div class="pt-4 grid grid-cols-2 gap-3 border-t border-slate-800">
+        <a href="tel:+905458566062" class="flex items-center justify-center space-x-2 bg-blue-600 text-white font-bold py-3 px-3 rounded-xl text-center text-sm shadow-md">
+          <i class="fa-solid fa-phone"></i>
+          <span>Hemen Ara</span>
+        </a>
+        <a href="https://wa.me/905458566062" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center space-x-2 bg-emerald-600 text-white font-bold py-3 px-3 rounded-xl text-center text-sm shadow-md">
+          <i class="fa-brands fa-whatsapp text-lg"></i>
+          <span>WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ================= 2. HERO SECTION ================= -->
+  <section id="hero" class="relative pt-28 pb-20 md:pt-36 md:pb-28 bg-gradient-to-b from-slate-900 via-slate-900 to-slate-800 text-white overflow-hidden">
+    <!-- Background Glow & Grid Effect -->
+    <div class="absolute inset-0 bg-[linear-gradient(to_right,#1e293b15_1px,transparent_1px),linear-gradient(to_bottom,#1e293b15_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
+    <div class="absolute -top-40 -right-40 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 -left-20 w-80 h-80 bg-emerald-500/10 rounded-full blur-3xl"></div>
+
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Hero Text & CTAs -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          
+          <!-- Notice Badge -->
+          <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs sm:text-sm font-semibold">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+            <span>Aynı Gün Adrese Yerinde Servis Hizmeti</span>
+          </div>
+
+          <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight">
+            Hızlı, Güvenilir ve <br class="hidden sm:inline" />
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-300 to-indigo-400">
+              Garantili Beyaz Eşya Servisi
+            </span>
+          </h1>
+
+          <p class="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+            Çamaşır makinesi, buzdolabı, bulaşık makinesi, kurutma makinesi ve fırın arızalarında aynı gün yerinde servis, uzman kadro ve orijinal yedek parça garantisi.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+            <a href="tel:+905458566062" 
+               class="w-full sm:w-auto flex items-center justify-center space-x-3 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 text-white font-extrabold text-base sm:text-lg px-8 py-4 rounded-2xl shadow-xl shadow-blue-600/30 transition-all duration-300 transform hover:-translate-y-1">
+              <i class="fa-solid fa-phone-volume text-xl"></i>
+              <span>Hemen Servis Çağır</span>
+            </a>
+            
+            <a href="https://wa.me/905458566062" target="_blank" rel="noopener noreferrer" 
+               class="w-full sm:w-auto flex items-center justify-center space-x-3 bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-base sm:text-lg px-8 py-4 rounded-2xl shadow-xl shadow-emerald-600/30 transition-all duration-300 transform hover:-translate-y-1">
+              <i class="fa-brands fa-whatsapp text-2xl"></i>
+              <span>WhatsApp ile İletişime Geç</span>
+            </a>
+          </div>
+
+          <!-- Trust Badges -->
+          <div class="pt-8 border-t border-slate-800 grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div class="flex items-center space-x-3 justify-center lg:justify-start text-slate-300">
+              <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400 shrink-0">
+                <i class="fa-solid fa-shield-halved text-lg"></i>
+              </div>
+              <span class="text-xs sm:text-sm font-semibold">1 Yıl Servis Garantisi</span>
+            </div>
+
+            <div class="flex items-center space-x-3 justify-center lg:justify-start text-slate-300">
+              <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400 shrink-0">
+                <i class="fa-solid fa-bolt text-lg"></i>
+              </div>
+              <span class="text-xs sm:text-sm font-semibold">Aynı Gün Yerinde Onarım</span>
+            </div>
+
+            <div class="flex items-center space-x-3 justify-center lg:justify-start text-slate-300">
+              <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400 shrink-0">
+                <i class="fa-solid fa-gears text-lg"></i>
+              </div>
+              <span class="text-xs sm:text-sm font-semibold">Orijinal Yedek Parça</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Hero Graphic & Card -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative mx-auto max-w-md lg:max-w-none">
+            <!-- Hero Main Image -->
+            <div class="relative rounded-3xl overflow-hidden shadow-2xl border border-slate-700/60 bg-slate-800">
+              <img src="./images/hero.png" alt="Günen Teknik Uzman Servis" class="w-full h-[380px] sm:h-[440px] object-cover" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+              
+              <!-- Floating Stats Overlay Badge -->
+              <div class="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-slate-900/90 backdrop-blur-md border border-slate-700/80 shadow-xl flex items-center justify-between">
+                <div>
+                  <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Müşteri Memnuniyeti</div>
+                  <div class="text-xl font-extrabold text-white flex items-center gap-1.5 mt-0.5">
+                    <span>%99.4</span>
+                    <div class="text-amber-400 text-sm flex gap-0.5">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="h-8 w-px bg-slate-700"></div>
+                <div>
+                  <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Tamir Edilen Cihaz</div>
+                  <div class="text-xl font-extrabold text-blue-400 mt-0.5">15.000+</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Decorative floating badge -->
+            <div class="hidden sm:flex absolute -top-5 -left-5 bg-blue-600 text-white p-4 rounded-2xl shadow-xl shadow-blue-600/30 items-center space-x-3 animate-float">
+              <i class="fa-solid fa-clock text-2xl"></i>
+              <div>
+                <div class="text-xs font-bold uppercase tracking-wider text-blue-200">7/24 Çağrı</div>
+                <div class="text-sm font-extrabold">Hızlı Randevu</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= 3. HİZMETLERİMİZ (SERVICE CARDS) ================= -->
+  <section id="hizmetler" class="py-20 bg-slate-100 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+        <span class="text-blue-600 font-bold text-sm uppercase tracking-widest bg-blue-100 px-4 py-1.5 rounded-full inline-block">
+          Uzmanlık Alanlarımız
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+          Profesyonel Beyaz Eşya Servis Hizmetleri
+        </h2>
+        <p class="text-slate-600 text-base sm:text-lg">
+          Her marka ve model beyaz eşyanız için yerinde arıza tespiti, orijinal parça değişimi ve 1 yıl garantili onarım imkanı.
+        </p>
+      </div>
+
+      <!-- Service Cards Grid -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        
+        <!-- Card 1: Çamaşır Makinesi -->
+        <div class="glass-card rounded-3xl p-6 flex flex-col justify-between hover:shadow-2xl transition-all duration-300 group hover:-translate-y-1 border border-slate-200">
+          <div>
+            <!-- Image & Badge -->
+            <div class="relative rounded-2xl overflow-hidden mb-6 h-48 bg-slate-100">
+              <img src="./images/camasir.png" alt="Çamaşır Makinesi Tamiri" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              <div class="absolute top-3 right-3 bg-blue-600 text-white w-10 h-10 rounded-xl flex items-center justify-center shadow-lg">
+                <i class="fa-solid fa-shirt text-lg"></i>
+              </div>
+            </div>
+
+            <h3 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors">
+              Çamaşır Makinesi Tamiri & Bakımı
+            </h3>
+
+            <p class="text-slate-600 text-sm mb-4 leading-relaxed">
+              Sıkma yapmama, su boşaltmama, gürültülü çalışma ve kazan dönmeme arızalarında garantili hızlı çözümler.
+            </p>
+
+            <ul class="text-xs text-slate-500 space-y-2 mb-6 border-t border-slate-100 pt-3">
+              <li class="flex items-center"><i class="fa-solid fa-circle-check text-blue-500 mr-2"></i>Pompa & Motor Değişimi</li>
+              <li class="flex items-center"><i class="fa-solid fa-circle-check text-blue-500 mr-2"></i>Amortisör & Kazan Rulman Tamiri</li>
+              <li class="flex items-center"><i class="fa-solid fa-circle-check text-blue-500 mr-2"></i>Elektronik Kart Onarımı</li>
+            </ul>
+          </div>
+
+          <div class="grid grid-cols-2 gap-2 pt-2 border-t border-slate-100">
+            <a href="tel:+905458566062" class="flex items-center justify-center space-x-1.5 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-3 rounded-xl text-xs transition-colors">
+              <i class="fa-solid fa-phone"></i>
+              <span>Ara</span>
+            </a>
+            <a href="https://wa.me/905458566062" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center space-x-1.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2.5 px-3 rounded-xl text-xs transition-colors">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 2: Buzdolabı -->
+        <div class="glass-card rounded-3xl p-6 flex flex-col justify-between hover:shadow-2xl transition-all duration-300 group hover:-translate-y-1 border border-slate-200">
+          <div>
+            <div class="relative rounded-2xl overflow-hidden mb-6 h-48 bg-slate-100">
+              <img src="./images/buzdolabi.png" alt="Buzdolabı Tamiri" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              <div class="absolute top-3 right-3 bg-blue-600 text-white w-10 h-10 rounded-xl flex items-center justify-center shadow-lg">
+                <i class="fa-solid fa-snowflake text-lg"></i>
+              </div>
+            </div>
+
+            <h3 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors">
+              Buzdolabı ve Soğutucu Servisi
+            </h3>
+
+            <p class="text-slate-600 text-sm mb-4 leading-relaxed">
+              Soğutmama, buzlanma yapma, motor sürekli çalışma veya sesli çalışma gibi arızalara anında müdahale.
+            </p>
+
+            <ul class="text-xs text-slate-500 space-y-2 mb-6 border-t border-slate-100 pt-3">
+              <li class="flex items-center"><i class="fa-solid fa-circle-check text-blue-500 mr-2"></i>Kompresör (Motor) Değişimi</li>
+              <li class="flex items-center"><i class="fa-solid fa-circle-check text-blue-500 mr-2"></i>Gaz Dolumu & Kaçak Tespiti</li>
+              <li class="flex items-center"><i class="fa-solid fa-circle-check text-blue-500 mr-2"></i>Termostat & Sensor Değişimi</li>
+            </ul>
+          </div>
+
+          <div class="grid grid-cols-2 gap-2 pt-2 border-t border-slate-100">
+            <a href="tel:+905458566062" class="flex items-center justify-center space-x-1.5 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-3 rounded-xl text-xs transition-colors">
+              <i class="fa-solid fa-phone"></i>
+              <span>Ara</span>
+            </a>
+            <a href="https://wa.me/905458566062" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center space-x-1.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2.5 px-3 rounded-xl text-xs transition-colors">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 3: Bulaşık Makinesi -->
+        <div class="glass-card rounded-3xl p-6 flex flex-col justify-between hover:shadow-2xl transition-all duration-300 group hover:-translate-y-1 border border-slate-200">
+          <div>
+            <div class="relative rounded-2xl overflow-hidden mb-6 h-48 bg-slate-100">
+              <img src="./images/bulasik.png" alt="Bulaşık Makinesi Servisi" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              <div class="absolute top-3 right-3 bg-blue-600 text-white w-10 h-10 rounded-xl flex items-center justify-center shadow-lg">
+                <i class="fa-solid fa-soap text-lg"></i>
+              </div>
+            </div>
+
+            <h3 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors">
+              Bulaşık Makinesi Arıza Onarımı
+            </h3>
+
+            <p class="text-slate-600 text-sm mb-4 leading-relaxed">
+              İyi yıkamama, su biriktirme, tablet eritmeme ve kurutmama arızalarında profesyonel bakım ve tamir.
+            </p>
+
+            <ul class="text-xs text-slate-500 space-y-2 mb-6 border-t border-slate-100 pt-3">
+              <li class="flex items-center"><i class="fa-solid fa-circle-check text-blue-500 mr-2"></i>Su Sirkülasyon Pompa Tamiri</li>
+              <li class="flex items-center"><i class="fa-solid fa-circle-check text-blue-500 mr-2"></i>Isıtıcı Rezistans Değişimi</li>
+              <li class="flex items-center"><i class="fa-solid fa-circle-check text-blue-500 mr-2"></i>Su Giriş Ventili Onarımı</li>
+            </ul>
+          </div>
+
+          <div class="grid grid-cols-2 gap-2 pt-2 border-t border-slate-100">
+            <a href="tel:+905458566062" class="flex items-center justify-center space-x-1.5 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-3 rounded-xl text-xs transition-colors">
+              <i class="fa-solid fa-phone"></i>
+              <span>Ara</span>
+            </a>
+            <a href="https://wa.me/905458566062" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center space-x-1.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2.5 px-3 rounded-xl text-xs transition-colors">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 4: Kurutma Makinesi ve Fırın -->
+        <div class="glass-card rounded-3xl p-6 flex flex-col justify-between hover:shadow-2xl transition-all duration-300 group hover:-translate-y-1 border border-slate-200">
+          <div>
+            <div class="relative rounded-2xl overflow-hidden mb-6 h-48 bg-slate-100">
+              <img src="./images/firin.png" alt="Kurutma Makinesi ve Fırın Servisi" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              <div class="absolute top-3 right-3 bg-blue-600 text-white w-10 h-10 rounded-xl flex items-center justify-center shadow-lg">
+                <i class="fa-solid fa-fire-burner text-lg"></i>
+              </div>
+            </div>
+
+            <h3 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors">
+              Kurutma Makinesi & Fırın Servisi
+            </h3>
+
+            <p class="text-slate-600 text-sm mb-4 leading-relaxed">
+              Kurutma yapmama, aşırı ısınma, fırın alt-üst ısıtmama ve termostat arızalarında hızlı uzman müdahalesi.
+            </p>
+
+            <ul class="text-xs text-slate-500 space-y-2 mb-6 border-t border-slate-100 pt-3">
+              <li class="flex items-center"><i class="fa-solid fa-circle-check text-blue-500 mr-2"></i>Termostat & Sensör Tamiri</li>
+              <li class="flex items-center"><i class="fa-solid fa-circle-check text-blue-500 mr-2"></i>Kayış & Motor Değişimi</li>
+              <li class="flex items-center"><i class="fa-solid fa-circle-check text-blue-500 mr-2"></i>Fırın Rezistans Değişimi</li>
+            </ul>
+          </div>
+
+          <div class="grid grid-cols-2 gap-2 pt-2 border-t border-slate-100">
+            <a href="tel:+905458566062" class="flex items-center justify-center space-x-1.5 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-3 rounded-xl text-xs transition-colors">
+              <i class="fa-solid fa-phone"></i>
+              <span>Ara</span>
+            </a>
+            <a href="https://wa.me/905458566062" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center space-x-1.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2.5 px-3 rounded-xl text-xs transition-colors">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= 4. NEDEN GÜNEN TEKNİK? ================= -->
+  <section id="neden-biz" class="py-20 bg-slate-900 text-white relative overflow-hidden">
+    <!-- Background Accents -->
+    <div class="absolute top-1/2 left-0 w-72 h-72 bg-blue-600/10 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 right-0 w-80 h-80 bg-indigo-600/10 rounded-full blur-3xl"></div>
+
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+        <span class="text-blue-400 font-bold text-sm uppercase tracking-widest bg-blue-500/10 px-4 py-1.5 rounded-full inline-block border border-blue-500/20">
+          Ayrıcalıklarımız
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          Neden Günen Teknik'i Tercih Etmelisiniz?
+        </h2>
+        <p class="text-slate-400 text-base sm:text-lg">
+          Müşteri memnuniyetini ön planda tutan kurumsal hizmet anlayışımız ve yılların verdiği tecrübe ile yanınızdayız.
+        </p>
+      </div>
+
+      <!-- 4 Column Modern Grid -->
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        
+        <!-- Feature 1 -->
+        <div class="p-8 rounded-3xl bg-slate-800/80 border border-slate-700/70 hover:border-blue-500/50 transition-all duration-300 hover:-translate-y-1">
+          <div class="w-14 h-14 rounded-2xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 text-2xl mb-6">
+            <i class="fa-solid fa-truck-fast"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">
+            Hızlı Randevu & Aynı Gün Müdahale
+          </h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Arıza bildiriminizin ardından gezici mobil servis ekiplerimiz aynı gün adresinize ulaşarak zaman kaybettirmez.
+          </p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="p-8 rounded-3xl bg-slate-800/80 border border-slate-700/70 hover:border-blue-500/50 transition-all duration-300 hover:-translate-y-1">
+          <div class="w-14 h-14 rounded-2xl bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-2xl mb-6">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">
+            1 Yıl İşçilik ve Parça Garantisi
+          </h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Değiştirilen tüm orijinal yedek parçalar ve yapılan teknik işçilik 1 tam yıl boyunca resmi garanti altındadır.
+          </p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="p-8 rounded-3xl bg-slate-800/80 border border-slate-700/70 hover:border-blue-500/50 transition-all duration-300 hover:-translate-y-1">
+          <div class="w-14 h-14 rounded-2xl bg-amber-500/20 border border-amber-500/30 flex items-center justify-center text-amber-400 text-2xl mb-6">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">
+            Şeffaf & Uygun Fiyat Politikası
+          </h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Onarım öncesinde detaylı arıza tespiti yapılır ve onayınız olmadan hiçbir ek ücret çıkartılmaz.
+          </p>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="p-8 rounded-3xl bg-slate-800/80 border border-slate-700/70 hover:border-blue-500/50 transition-all duration-300 hover:-translate-y-1">
+          <div class="w-14 h-14 rounded-2xl bg-indigo-500/20 border border-indigo-500/30 flex items-center justify-center text-indigo-400 text-2xl mb-6">
+            <i class="fa-solid fa-user-gear"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">
+            Sertifikalı Uzman Teknisyenler
+          </h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Alanında deneyimli, tüm markaların yeni nesil teknolojilerine hâkim profesyonel ve güler yüzlü ekip.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================= 5. HIZLI ARIZA TALEP FORMU ================= -->
+  <section id="ariza-form" class="py-20 bg-slate-50 relative">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="bg-white rounded-3xl shadow-2xl border border-slate-200/80 overflow-hidden grid md:grid-cols-12">
+        
+        <!-- Left Info Column -->
+        <div class="md:col-span-5 bg-gradient-to-br from-blue-900 via-slate-900 to-blue-950 p-8 sm:p-10 text-white flex flex-col justify-between relative overflow-hidden">
+          <div class="absolute -bottom-10 -right-10 w-48 h-48 bg-blue-500/20 rounded-full blur-2xl"></div>
+          
+          <div class="space-y-6 relative z-10">
+            <div class="w-12 h-12 rounded-2xl bg-blue-500/20 border border-blue-400/30 flex items-center justify-center text-blue-400 text-xl">
+              <i class="fa-solid fa-paper-plane"></i>
+            </div>
+            
+            <h3 class="text-2xl font-extrabold text-white leading-tight">
+              Hızlı Arıza Kaydı Oluşturun
+            </h3>
+            
+            <p class="text-slate-300 text-sm leading-relaxed">
+              Formu doldurarak arıza bildiriminizi dakikalar içinde doğrudan WhatsApp teknik destek hattımıza iletebilirsiniz. Ekiplerimiz size anında dönüş yapar.
+            </p>
+
+            <div class="space-y-4 pt-4 border-t border-slate-800">
+              <div class="flex items-center space-x-3">
+                <div class="w-8 h-8 rounded-lg bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0">
+                  <i class="fa-brands fa-whatsapp text-base"></i>
+                </div>
+                <div>
+                  <div class="text-xs text-slate-400 font-semibold">WhatsApp Destek</div>
+                  <a href="https://wa.me/905458566062" target="_blank" class="text-sm font-bold text-white hover:text-emerald-400">0545 856 60 62</a>
+                </div>
+              </div>
+
+              <div class="flex items-center space-x-3">
+                <div class="w-8 h-8 rounded-lg bg-blue-500/20 text-blue-400 flex items-center justify-center shrink-0">
+                  <i class="fa-solid fa-phone text-xs"></i>
+                </div>
+                <div>
+                  <div class="text-xs text-slate-400 font-semibold">Çağrı Merkezi</div>
+                  <a href="tel:+905458566062" class="text-sm font-bold text-white hover:text-blue-400">0545 856 60 62</a>
+                </div>
+              </div>
+
+              <div class="flex items-center space-x-3">
+                <div class="w-8 h-8 rounded-lg bg-amber-500/20 text-amber-400 flex items-center justify-center shrink-0">
+                  <i class="fa-solid fa-clock text-xs"></i>
+                </div>
+                <div>
+                  <div class="text-xs text-slate-400 font-semibold">Çalışma Saatleri</div>
+                  <div class="text-sm font-bold text-white">Haftanın 7 Günü (08:00 - 22:00)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-8 text-xs text-slate-400 relative z-10">
+            <i class="fa-solid fa-lock text-emerald-400 mr-1"></i> Bilgileriniz gizli tutulur ve yalnızca servis randevusu için kullanılır.
+          </div>
+        </div>
+
+        <!-- Right Form Column -->
+        <div class="md:col-span-7 p-8 sm:p-10 bg-white">
+          <h4 class="text-xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
+            <span>Arıza Bildirim Formu</span>
+          </h4>
+
+          <form id="whatsappForm" onsubmit="sendWhatsAppForm(event)" class="space-y-5">
+            
+            <!-- Ad Soyad -->
+            <div>
+              <label for="fullName" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+                Adınız Soyadınız <span class="text-red-500">*</span>
+              </label>
+              <div class="relative">
+                <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                  <i class="fa-solid fa-user text-sm"></i>
+                </span>
+                <input type="text" id="fullName" required placeholder="Örn: Ahmet Yılmaz" 
+                       class="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition-all" />
+              </div>
+            </div>
+
+            <!-- Telefon -->
+            <div>
+              <label for="phoneNumber" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+                Telefon Numarası <span class="text-red-500">*</span>
+              </label>
+              <div class="relative">
+                <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                  <i class="fa-solid fa-phone text-sm"></i>
+                </span>
+                <input type="tel" id="phoneNumber" required placeholder="Örn: 0545 856 60 62" 
+                       class="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition-all" />
+              </div>
+            </div>
+
+            <!-- Cihaz Türü -->
+            <div>
+              <label for="deviceType" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+                Arızalı Cihaz Türü <span class="text-red-500">*</span>
+              </label>
+              <div class="relative">
+                <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                  <i class="fa-solid fa-screwdriver-wrench text-sm"></i>
+                </span>
+                <select id="deviceType" required 
+                        class="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition-all appearance-none cursor-pointer">
+                  <option value="" disabled selected>Lütfen cihaz seçiniz...</option>
+                  <option value="Çamaşır Makinesi">Çamaşır Makinesi</option>
+                  <option value="Buzdolabı / Soğutucu">Buzdolabı / Soğutucu</option>
+                  <option value="Bulaşık Makinesi">Bulaşık Makinesi</option>
+                  <option value="Kurutma Makinesi">Kurutma Makinesi</option>
+                  <option value="Fırın / Ankastre / Ocak">Fırın / Ankastre / Ocak</option>
+                  <option value="Diğer Beyaz Eşya">Diğer Beyaz Eşya</option>
+                </select>
+                <span class="absolute inset-y-0 right-0 pr-3.5 flex items-center pointer-events-none text-slate-400">
+                  <i class="fa-solid fa-chevron-down text-xs"></i>
+                </span>
+              </div>
+            </div>
+
+            <!-- Arıza Açıklaması -->
+            <div>
+              <label for="issueDesc" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+                Arıza Açıklaması / Şikayetiniz
+              </label>
+              <textarea id="issueDesc" rows="3" placeholder="Örn: Çamaşır makinesi sıkma yaparken çok ses çıkarıyor ve su boşaltmıyor." 
+                        class="w-full p-4 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition-all resize-none"></textarea>
+            </div>
+
+            <!-- Form Submit Button -->
+            <button type="submit" 
+                    class="w-full py-4 px-6 bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-base rounded-xl shadow-lg shadow-emerald-600/30 transition-all duration-300 flex items-center justify-center space-x-3 transform active:scale-95">
+              <i class="fa-brands fa-whatsapp text-2xl"></i>
+              <span>Arıza Bildir (WhatsApp ile Gönder)</span>
+            </button>
+
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================= 6. MÜŞTERİ YORUMLARI & SSS ================= -->
+  <section id="yorumlar" class="py-20 bg-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Testimonials Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+        <span class="text-blue-600 font-bold text-sm uppercase tracking-widest bg-blue-100 px-4 py-1.5 rounded-full inline-block">
+          Müşteri Deneyimleri
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+          Müşterilerimizin Günen Teknik Hakkındaki Yorumları
+        </h2>
+        <p class="text-slate-600 text-base sm:text-lg">
+          %100 şeffaflık ve yüksek memnuniyet ilkesiyle gerçekleştirdiğimiz servis hizmetlerinden kareler.
+        </p>
+      </div>
+
+      <!-- Testimonial Cards Grid -->
+      <div class="grid md:grid-cols-3 gap-8 mb-20">
+        
+        <!-- Review 1 -->
+        <div class="glass-card p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 relative border border-slate-200">
+          <div class="text-amber-400 text-sm flex gap-1 mb-4">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="text-slate-700 text-sm leading-relaxed mb-6 italic">
+            "Çamaşır makinemiz hafta sonu aniden bozuldu ve su akıtmaya başladı. İletişime geçtikten sadece 2 saat sonra gelip sorunu evde çözdüler. Temiz çalışıyorlar, kesinlikle tavsiye ederim."
+          </p>
+          <div class="flex items-center space-x-3 pt-4 border-t border-slate-100">
+            <div class="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-sm">
+              MY
+            </div>
+            <div>
+              <div class="font-bold text-slate-900 text-sm">Mehmet Y.</div>
+              <div class="text-xs text-slate-500">Çamaşır Makinesi Tamiri</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="glass-card p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 relative border border-slate-200">
+          <div class="text-amber-400 text-sm flex gap-1 mb-4">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="text-slate-700 text-sm leading-relaxed mb-6 italic">
+            "Buzdolabımın alt kısmı soğutmuyordu. Başka yerler motor değişecek derken Günen Teknik sadece sensör arızası olduğunu söyleyip çok uygun fiyata halletti. Dürüst esnaf!"
+          </p>
+          <div class="flex items-center space-x-3 pt-4 border-t border-slate-100">
+            <div class="w-10 h-10 rounded-full bg-emerald-600 text-white flex items-center justify-center font-bold text-sm">
+              AK
+            </div>
+            <div>
+              <div class="font-bold text-slate-900 text-sm">Ayşe K.</div>
+              <div class="text-xs text-slate-500">Buzdolabı Servisi</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="glass-card p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 relative border border-slate-200">
+          <div class="text-amber-400 text-sm flex gap-1 mb-4">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="text-slate-700 text-sm leading-relaxed mb-6 italic">
+            "Bulaşık makinemiz için aynı gün servis verdiler. Değişen parçaya 1 yıl yazılı garanti verdiler. Teknisyen arkadaş son derece kibar ve bilgiliydi."
+          </p>
+          <div class="flex items-center space-x-3 pt-4 border-t border-slate-100">
+            <div class="w-10 h-10 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold text-sm">
+              BT
+            </div>
+            <div>
+              <div class="font-bold text-slate-900 text-sm">Burak T.</div>
+              <div class="text-xs text-slate-500">Bulaşık Makinesi Onarımı</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="max-w-4xl mx-auto pt-10 border-t border-slate-200">
+        <div class="text-center mb-10">
+          <h3 class="text-2xl font-extrabold text-slate-900">Sıkça Sorulan Sorular</h3>
+        </div>
+
+        <div class="space-y-4">
+          
+          <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+            <button onclick="toggleFaq(1)" class="w-full p-5 text-left font-bold text-slate-900 flex justify-between items-center focus:outline-none">
+              <span>Servis ücreti ve arıza tespiti nasıl yapılıyor?</span>
+              <i id="faq-icon-1" class="fa-solid fa-chevron-down text-blue-600 transition-transform"></i>
+            </button>
+            <div id="faq-ans-1" class="hidden px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+              Adresinize gelen teknisyenlerimiz öncelikle arıza tespitini gerçekleştirir. Onarım öncesinde size net fiyat bilgisi sunulur. Onayı vermeniz durumunda arıza giderilir.
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+            <button onclick="toggleFaq(2)" class="w-full p-5 text-left font-bold text-slate-900 flex justify-between items-center focus:outline-none">
+              <span>Değişen parçaların garantisi var mı?</span>
+              <i id="faq-icon-2" class="fa-solid fa-chevron-down text-blue-600 transition-transform"></i>
+            </button>
+            <div id="faq-ans-2" class="hidden px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+              Evet, Günen Teknik bünyesinde yapılan tüm yedek parça değişimleri ve işçilikler 1 yıl boyunca resmi servis garantimiz altındadır.
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+            <button onclick="toggleFaq(3)" class="w-full p-5 text-left font-bold text-slate-900 flex justify-between items-center focus:outline-none">
+              <span>Aynı gün servis imkânınız var mı?</span>
+              <i id="faq-icon-3" class="fa-solid fa-chevron-down text-blue-600 transition-transform"></i>
+            </button>
+            <div id="faq-ans-3" class="hidden px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+              Evet! Gezici mobil servis araçlarımız sayesinde gün içerisinde oluşturduğunuz randevulara aynı gün yerinde müdahale sağlıyoruz.
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================= 7. FOOTER & CONTACT ================= -->
+  <footer id="iletisim" class="bg-slate-950 text-slate-400 pt-16 pb-28 md:pb-12 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-slate-800">
+        
+        <!-- Col 1: Brand Info -->
+        <div class="space-y-4">
+          <a href="#hero" class="flex items-center space-x-3">
+            <div class="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center text-white font-bold">
+              <i class="fa-solid fa-wrench"></i>
+            </div>
+            <span class="text-xl font-extrabold text-white">GÜNEN <span class="text-blue-400">TEKNİK</span></span>
+          </a>
+          <p class="text-sm text-slate-400 leading-relaxed">
+            Günen Teknik, profesyonel beyaz eşya teknik servis hizmetleri ile beyaz eşyalarınız için hızlı, güvenilir ve garantili çözümler sunar.
+          </p>
+          <div class="flex space-x-3 pt-2">
+            <a href="https://wa.me/905458566062" target="_blank" class="w-9 h-9 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-emerald-400 hover:bg-emerald-600 hover:text-white transition-colors">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="tel:+905458566062" class="w-9 h-9 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-blue-400 hover:bg-blue-600 hover:text-white transition-colors">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Hizmetlerimiz -->
+        <div>
+          <h4 class="text-white font-bold text-base mb-4">Hizmetlerimiz</h4>
+          <ul class="space-y-2.5 text-sm">
+            <li><a href="#hizmetler" class="hover:text-blue-400 transition-colors">Çamaşır Makinesi Tamiri</a></li>
+            <li><a href="#hizmetler" class="hover:text-blue-400 transition-colors">Buzdolabı & Soğutucu Servisi</a></li>
+            <li><a href="#hizmetler" class="hover:text-blue-400 transition-colors">Bulaşık Makinesi Onarımı</a></li>
+            <li><a href="#hizmetler" class="hover:text-blue-400 transition-colors">Kurutma Makinesi Servisi</a></li>
+            <li><a href="#hizmetler" class="hover:text-blue-400 transition-colors">Fırın & Ankastre Tamiri</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Hızlı Erişim -->
+        <div>
+          <h4 class="text-white font-bold text-base mb-4">Hızlı Erişim</h4>
+          <ul class="space-y-2.5 text-sm">
+            <li><a href="#hero" class="hover:text-blue-400 transition-colors">Anasayfa</a></li>
+            <li><a href="#neden-biz" class="hover:text-blue-400 transition-colors">Neden Günen Teknik?</a></li>
+            <li><a href="#ariza-form" class="hover:text-blue-400 transition-colors">Arıza Kaydı Oluştur</a></li>
+            <li><a href="#yorumlar" class="hover:text-blue-400 transition-colors">Müşteri Yorumları</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: İletişim Bilgileri -->
+        <div>
+          <h4 class="text-white font-bold text-base mb-4">İletişim & Çalışma Saatleri</h4>
+          <ul class="space-y-3 text-sm">
+            <li class="flex items-start space-x-3">
+              <i class="fa-solid fa-phone text-blue-400 mt-1"></i>
+              <div>
+                <div class="text-xs text-slate-400">Telefon / 7/24 Çağrı</div>
+                <a href="tel:+905458566062" class="text-white font-bold hover:text-blue-400 transition-colors">0545 856 60 62</a>
+              </div>
+            </li>
+            <li class="flex items-start space-x-3">
+              <i class="fa-brands fa-whatsapp text-emerald-400 mt-1"></i>
+              <div>
+                <div class="text-xs text-slate-400">WhatsApp Hat</div>
+                <a href="https://wa.me/905458566062" target="_blank" class="text-white font-bold hover:text-emerald-400 transition-colors">0545 856 60 62</a>
+              </div>
+            </li>
+            <li class="flex items-start space-x-3">
+              <i class="fa-solid fa-clock text-amber-400 mt-1"></i>
+              <div>
+                <div class="text-xs text-slate-400">Çalışma Saatleri</div>
+                <div class="text-white font-medium">Haftanın 7 Günü: 08:00 - 22:00</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Copyright -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500">
+        <div>
+          &copy; 2026 Günen Teknik - Tüm Hakları Saklıdır.
+        </div>
+        <div class="mt-2 sm:mt-0">
+          Profesyonel Beyaz Eşya Servis Hizmetleri
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- ================= FLOATING ACTION BUTTONS ================= -->
+
+  <!-- Floating WhatsApp Button (Desktop & Mobile - Bottom Right) -->
+  <a href="https://wa.me/905458566062" target="_blank" rel="noopener noreferrer"
+     aria-label="WhatsApp İletişim"
+     class="fixed bottom-6 right-6 z-40 w-14 h-14 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full flex items-center justify-center shadow-2xl transition-all duration-300 animate-whatsapp-pulse group">
+    <i class="fa-brands fa-whatsapp text-3xl"></i>
+    <!-- Tooltip -->
+    <span class="absolute right-16 bg-slate-900 text-white text-xs font-bold px-3 py-1.5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap shadow-md pointer-events-none hidden sm:block">
+      WhatsApp ile Yazın
+    </span>
+  </a>
+
+  <!-- Floating Mobile Sticky Bottom Bar (Visible on Mobile Screens only) -->
+  <div class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-slate-900/95 backdrop-blur-md border-t border-slate-800 p-2.5 grid grid-cols-2 gap-2 shadow-2xl">
+    <a href="tel:+905458566062" 
+       class="flex items-center justify-center space-x-2 bg-blue-600 active:bg-blue-700 text-white font-extrabold py-3 px-4 rounded-xl text-center text-sm shadow-md">
+      <i class="fa-solid fa-phone text-base"></i>
+      <span>HEMEN ARA</span>
+    </a>
+    
+    <a href="https://wa.me/905458566062" target="_blank" rel="noopener noreferrer" 
+       class="flex items-center justify-center space-x-2 bg-emerald-600 active:bg-emerald-700 text-white font-extrabold py-3 px-4 rounded-xl text-center text-sm shadow-md">
+      <i class="fa-brands fa-whatsapp text-lg"></i>
+      <span>WHATSAPP</span>
+    </a>
+  </div>
+
+
+  <!-- ================= JAVASCRIPT FUNCTIONS ================= -->
+  <script>
+    // Toggle Mobile Drawer Menu
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobile-menu');
+      const icon = document.getElementById('menu-icon');
+      if (menu.classList.contains('hidden')) {
+        menu.classList.remove('hidden');
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-xmark');
+      } else {
+        menu.classList.add('hidden');
+        icon.classList.remove('fa-xmark');
+        icon.classList.add('fa-bars');
+      }
+    }
+
+    // Toggle FAQ Accordion
+    function toggleFaq(id) {
+      const ans = document.getElementById(`faq-ans-${id}`);
+      const icon = document.getElementById(`faq-icon-${id}`);
+      if (ans.classList.contains('hidden')) {
+        ans.classList.remove('hidden');
+        icon.classList.add('rotate-180');
+      } else {
+        ans.classList.add('hidden');
+        icon.classList.remove('rotate-180');
+      }
+    }
+
+    // Send Form Data directly to WhatsApp
+    function sendWhatsAppForm(event) {
+      event.preventDefault();
+      
+      const name = document.getElementById('fullName').value.trim();
+      const phone = document.getElementById('phoneNumber').value.trim();
+      const device = document.getElementById('deviceType').value;
+      const description = document.getElementById('issueDesc').value.trim() || 'Belirtilmedi';
+
+      if (!name || !phone || !device) {
+        alert('Lütfen gerekli alanları doldurunuz.');
+        return;
+      }
+
+      // Format WhatsApp Message
+      const messageText = 
+`*GÜNEN TEKNİK - ARIZA TALEP FORMU*
+
+👤 *Ad Soyad:* ${name}
+📞 *Telefon:* ${phone}
+🔧 *Cihaz Türü:* ${device}
+📝 *Arıza Açıklaması:* ${description}
+
+Lütfen en kısa sürede dönüş sağlayınız.`;
+
+      const whatsappUrl = `https://wa.me/905458566062?text=${encodeURIComponent(messageText)}`;
+      
+      // Redirect to WhatsApp
+      window.open(whatsappUrl, '_blank');
+    }
+
+    // Add navbar shadow on scroll
+    window.addEventListener('scroll', function() {
+      const header = document.getElementById('header');
+      if (window.scrollY > 50) {
+        header.classList.add('shadow-2xl', 'bg-slate-950/95');
+      } else {
+        header.classList.remove('shadow-2xl', 'bg-slate-950/95');
+      }
+    });
+  </script>
+</body>
+</html>
